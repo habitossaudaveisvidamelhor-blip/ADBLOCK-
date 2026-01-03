@@ -1,0 +1,36 @@
+! === 1. ESTABILIDADE E CORREÇÃO DE ERROS (PRIORIDADE) ===
+! Garante que os vídeos do YouTube, Max e Disney carreguem sem travar
+@@||googlevideo.com^$important
+@@||ytimg.com^$important
+@@||discomax.com^$important
+@@||akm.latam.prd.media.max.com^$important
+@@||youtube.com/youtubei/v1/log_event?*$xhr,important
+
+! === 2. ESTRATÉGIA PARA ENGANAR O PLAYER (PULAR ADS) ===
+! Bloqueia o vídeo do anúncio mas libera o sinal de conclusão
+||akm-latam-free.prd.media.max.com^$important
+||ad-delivery.net^$important
+||brightline.tv^$important
+@@||s.youtube.com^$important
+@@||tracking.disneyplus.com^$important
+
+! === 3. BLOQUEIO DE BANNERS E PATROCINADOS (YOUTUBE E APPS) ===
+||doubleclick.net^$important
+||googleads.g.doubleclick.net^$important
+||suggestqueries.google.com^$important
+youtube.com##ytd-ad-slot-renderer
+youtube.com##.ytd-display-ad-renderer
+
+! === 4. BLOQUEIO DE INTERESSES ESPECÍFICOS (BETS, AIRBNB, WIZARD) ===
+||betano.com^$important
+||blaze.com^$important
+||airbnb.com^$important
+||beaver.airbnb.com^$important
+||wizard.com.br^$important
+
+! === 5. PRIVACIDADE E INCÔMODOS (BASEADO NOS SEUS ARQUIVOS) ===
+! Regras extraídas dos filtros 14, 15, 101 e 118
+||v174nyvle72ozq.cfd^
+||carbonads.net^
+##.cookies-modal
+||trymask.com/api/$third-party
