@@ -1,0 +1,2 @@
+# ADBLOCK-
+Bloquear propagandas maliciosas 
